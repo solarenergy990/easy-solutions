@@ -1,2 +1,0 @@
-# easy-solutions
-easy-solutions

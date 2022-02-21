@@ -70,9 +70,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className={s.line}>
-        {/* <SvgIcon iconName="icon-product-line" className={s.icon} /> */}
-      </div>
+      <div className={s.line}></div>
     </>
   );
 };

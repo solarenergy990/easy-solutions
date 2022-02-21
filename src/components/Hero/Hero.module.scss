@@ -1,0 +1,14 @@
+@media (min-width: 769px) {
+  .hero {
+    background-image: url("../../../public/images/hero-1x.jpg");
+    background-size: cover;
+    height: 913px;
+  }
+  @media (min-resolution: 2dppx) {
+    .hero {
+      background-image: url("../../../public/images/hero-2x@2x.jpg");
+      background-size: cover;
+      height: 913px;
+    }
+  }
+}

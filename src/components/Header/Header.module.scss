@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+}
+
+.logo {
+  margin-right: 202px;
+}
+
+.nav {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 72px;
+}

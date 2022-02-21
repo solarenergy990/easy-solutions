@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
-import Product from "../Product/Product";
+import Product from "../../pages/Product/Product";
 
 import { Routes, Route } from "react-router-dom";
 

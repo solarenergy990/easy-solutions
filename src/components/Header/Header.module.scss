@@ -1,15 +1,130 @@
 .header {
   display: flex;
+
+  align-items: center;
+  padding: 33px 141px;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   margin-right: 202px;
+}
+
+.logoIconWrapper {
+  height: 29px;
+  width: 29px;
+  margin-right: 9px;
+}
+
+.logoText {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .nav {
   display: flex;
+  margin-right: 202px;
 }
+
+// .item {
+//   position: relative;
+// }
 
 .item:not(:last-child) {
   margin-right: 72px;
+}
+
+.navLink {
+  color: #fff;
+
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: #82e1ff;
+  }
+}
+
+.navLinkActive {
+  position: relative;
+
+  display: block;
+  color: #82e1ff;
+
+  transition: color 250ms linear;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+
+    border: 1px solid #82e1ff;
+    box-shadow: 0px 0px 10px #00c2ff;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+  }
+}
+
+.text {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-transform: uppercase;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.langToggler {
+  display: flex;
+  margin-right: 61px;
+}
+
+.langText {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+
+  color: #ffffff;
+
+  text-transform: uppercase;
+
+  margin-right: 4px;
+}
+
+.languageIconWrapper {
+  height: 6px;
+  width: 10px;
+}
+
+.cartIconWrapper {
+  height: 32px;
+  width: 32px;
+}
+
+.line {
+  width: 1440px;
+  height: 1px;
+
+  border: 1px solid #82e1ff;
+  box-shadow: 0px 0px 10px #00c2ff;
+  border-radius: 20px;
 }

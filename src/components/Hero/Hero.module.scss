@@ -1,14 +1,73 @@
 @media (min-width: 769px) {
-  .hero {
+  .heroOverlay {
     background-image: url("../../../public/images/hero-1x.jpg");
     background-size: cover;
     height: 913px;
+    width: 1440px;
+    margin: 0 auto;
   }
   @media (min-resolution: 2dppx) {
-    .hero {
+    .heroOverlay {
       background-image: url("../../../public/images/hero-2x@2x.jpg");
       background-size: cover;
       height: 913px;
+      width: 1440px;
+      margin: 0 auto;
     }
+  }
+}
+
+.hero {
+  max-width: 1440px;
+  padding-top: 236px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Oxanium;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.14;
+
+  color: #ffffff;
+  width: 557px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: #82e1ff;
+  margin-bottom: 72px;
+}
+
+.button {
+  border: 0;
+  background: #c1269f;
+
+  border-radius: 30px;
+  width: 349px;
+  height: 60px;
+  padding: 16px 48px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  &:hover,
+  :focus {
+    box-shadow: 0px 0px 30px #ff0099;
   }
 }

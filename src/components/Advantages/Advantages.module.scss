@@ -1,0 +1,44 @@
+.section {
+  position: relative;
+  background-color: #f1eeff;
+  // padding: 138px 140px 141px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.advantages {
+  width: 1440px;
+  height: 622px;
+  background: linear-gradient(
+    180deg,
+    rgba(230, 221, 255, 0.5) 0%,
+    rgba(147, 196, 255, 0.5) 100%
+  );
+}
+
+.tab {
+  position: absolute;
+  top: -191px;
+  left: 840px;
+  height: 36px;
+
+  width: 351px;
+}
+
+.title {
+  position: absolute;
+
+  left: 897px;
+  top: -20px;
+
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.12;
+
+  display: flex;
+  align-items: center;
+
+  color: #c1269f;
+}

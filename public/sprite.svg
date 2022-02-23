@@ -89,8 +89,10 @@
 <symbol id="icon-product-line" viewBox="0 0 1486 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M23.334 28c1.105 0 2-0.895 2-2s-0.895-2-2-2c-1.105 0-2 0.895-2 2s0.895 2 2 2z"></path>
 </symbol>
-<symbol id="icon-top-line-about" viewBox="0 0 1486 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 11h200.7a20 20 0 0 1 14.4 6.1L238 41c3.8 3.9 9 6.1 14.4 6.1h637a20 20 0 0 0 14.4-6.1l22.8-24a20 20 0 0 1 14.4-6.1h499"></path>
+<symbol id="icon-advantages-tab" viewBox="0 0 351 32">
+<path fill="
+#ebe6ff" style="fill: var(--color1, 
+#ebe6ff)" d="M316.277 8.11l15.3 15.786c5.023 5.182 11.932 8.107 19.148 8.107h-350.353c7.222 0 14.135-2.929 19.158-8.117l15.265-15.766c5.023-5.188 11.936-8.117 19.158-8.117h243.175c7.217 0 14.126 2.925 19.148 8.107z"></path>
 </symbol>
 </defs>
 </svg>

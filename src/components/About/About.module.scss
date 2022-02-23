@@ -3,12 +3,6 @@
   height: 1405px;
   margin: 0 auto;
   background: #01183d;
-  //   background: rgb(148, 195, 220);
-  //   background: radial-gradient(
-  //     farthest-corner at 720px 1070px,
-  //     rgba(148, 195, 220, 0.4598214285714286) 0%,
-  //     rgba(1, 24, 61, 1) 54%
-  //   );
 }
 
 .gradient {
@@ -114,4 +108,141 @@
   background-size: cover;
   width: 450px;
   height: 791px;
+}
+
+.seatStandDashes {
+  position: absolute;
+  left: 384px;
+  top: 878px;
+
+  background-image: url("../../../public/images/seat-stand-dashes.png");
+  background-size: cover;
+  width: 681px;
+  height: 244px;
+}
+
+.backDashes {
+  position: absolute;
+  left: 383px;
+  top: 365px;
+
+  background-image: url("../../../public/images/back-dashes.png");
+  background-size: cover;
+  width: 296px;
+  height: 386.5px;
+}
+
+.pillowDashes {
+  position: absolute;
+  left: 679px;
+  top: 302px;
+
+  background-image: url("../../../public/images/pillow-dashes.png");
+  background-size: cover;
+  width: 373px;
+  height: 304px;
+}
+
+.biggerPillow {
+  position: absolute;
+  left: 1033px;
+  top: 198px;
+
+  background-image: url("../../../public/images/bigger-pillow.png");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+
+  z-index: 1;
+
+  & .pillowContent {
+    position: absolute;
+    top: 272px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+
+    color: #ffffff;
+  }
+}
+
+.biggerBack {
+  position: absolute;
+  left: 163px;
+  top: 263px;
+
+  background-image: url("../../../public/images/bigger-back.png");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+
+  z-index: 1;
+
+  & .backContent {
+    position: absolute;
+    top: 272px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+
+    color: #ffffff;
+  }
+}
+
+.biggerSeat {
+  position: absolute;
+  left: 1045px;
+  top: 765px;
+
+  background-image: url("../../../public/images/bigger-seat.png");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+
+  z-index: 1;
+
+  & .seatContent {
+    position: absolute;
+    top: 272px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+
+    color: #ffffff;
+  }
+}
+
+.biggerStand {
+  position: absolute;
+  left: 164px;
+  top: 873px;
+
+  background-image: url("../../../public/images/bigger-stand.png");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+
+  z-index: 1;
+
+  & .standContent {
+    position: absolute;
+    top: 272px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+
+    color: #ffffff;
+  }
 }

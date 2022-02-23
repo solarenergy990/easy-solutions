@@ -89,5 +89,8 @@
 <symbol id="icon-product-line" viewBox="0 0 1486 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M23.334 28c1.105 0 2-0.895 2-2s-0.895-2-2-2c-1.105 0-2 0.895-2 2s0.895 2 2 2z"></path>
 </symbol>
+<symbol id="icon-top-line-about" viewBox="0 0 1486 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 11h200.7a20 20 0 0 1 14.4 6.1L238 41c3.8 3.9 9 6.1 14.4 6.1h637a20 20 0 0 0 14.4-6.1l22.8-24a20 20 0 0 1 14.4-6.1h499"></path>
+</symbol>
 </defs>
 </svg>

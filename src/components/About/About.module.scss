@@ -1,0 +1,117 @@
+.section {
+  width: 1440px;
+  height: 1405px;
+  margin: 0 auto;
+  background: #01183d;
+  //   background: rgb(148, 195, 220);
+  //   background: radial-gradient(
+  //     farthest-corner at 720px 1070px,
+  //     rgba(148, 195, 220, 0.4598214285714286) 0%,
+  //     rgba(1, 24, 61, 1) 54%
+  //   );
+}
+
+.gradient {
+  position: absolute;
+  width: 774px;
+  height: 710px;
+  left: 271px;
+  top: 522px;
+  border-radius: 50%;
+
+  background: #42679e;
+  filter: blur(230px);
+}
+
+.circlePillow {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 674px;
+  top: 600px;
+
+  z-index: 1;
+
+  border-radius: 50%;
+  border: 1px solid #82e1ff;
+  filter: drop-shadow(0px 0px 10px #00c2ff);
+}
+
+.circleBack {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 670px;
+  top: 743px;
+
+  z-index: 1;
+  border-radius: 50%;
+  border: 1px solid #82e1ff;
+  filter: drop-shadow(0px 0px 10px #00c2ff);
+}
+
+.circleSeat {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 822px;
+  top: 950px;
+
+  z-index: 1;
+  border-radius: 50%;
+  border: 1px solid #82e1ff;
+  filter: drop-shadow(0px 0px 10px #00c2ff);
+}
+
+.circleStand {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 740px;
+  top: 1118px;
+
+  z-index: 1;
+  border-radius: 50%;
+  border: 1px solid #82e1ff;
+  filter: drop-shadow(0px 0px 10px #00c2ff);
+}
+
+.about {
+  position: relative;
+  padding-top: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.topLine {
+  background-image: url("../../../public/images/line-about-top.png");
+  height: 50px;
+  width: 1440px;
+  position: absolute;
+
+  left: 0;
+  top: 104px;
+}
+
+.title {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.12;
+
+  color: #82e1ff;
+
+  padding-left: 120px;
+}
+
+.mainChair {
+  position: absolute;
+  left: 535px;
+  top: 490px;
+
+  background-image: url("../../../public/images/chair-about.png");
+  background-size: cover;
+  width: 450px;
+  height: 791px;
+}

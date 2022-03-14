@@ -83,3 +83,64 @@
   left: 1002px;
   top: 268px;
 }
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px;
+}
+
+.item {
+  position: relative;
+  width: 268px;
+
+  background: #f2f4ff;
+  box-shadow: 10px 10px 15px rgba(89, 106, 170, 0.1);
+  border-radius: 20px;
+
+  z-index: 6;
+
+  & .itemWrapper {
+    padding: 32px 24px;
+  }
+
+  & .itemTitle {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 34px;
+
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #041b3f;
+  }
+
+  & .safetyAdvantages {
+    width: 115px;
+    height: 130px;
+
+    margin: 0 auto;
+    margin-bottom: 14px;
+
+    fill: #c1269f;
+  }
+
+  & .itemText {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: #041b3f;
+  }
+}

@@ -11,6 +11,10 @@ const Advantages = () => {
           <SvgIcon iconName="icon-advantages-tab" />
         </div>
         <h2 className={s.title}>Our Advantages</h2>
+        <div className={s.safety}></div>
+        <div className={s.serviceDesk}></div>
+        <div className={s.delivery}></div>
+        <div className={s.support}></div>
       </div>
     </section>
   );

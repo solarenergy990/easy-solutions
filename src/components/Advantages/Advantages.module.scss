@@ -7,6 +7,7 @@
 }
 
 .advantages {
+  position: relative;
   width: 1440px;
   height: 622px;
   background: linear-gradient(
@@ -23,6 +24,8 @@
   height: 36px;
 
   width: 351px;
+
+  z-index: 4;
 }
 
 .title {
@@ -41,4 +44,42 @@
   align-items: center;
 
   color: #c1269f;
+
+  z-index: 5;
+}
+
+.safety {
+  background-image: url("../../../public/images/advant_safety-outlined.png");
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: -55px;
+  top: -138px;
+}
+
+.serviceDesk {
+  background-image: url("../../../public/images/advant_service-desk-outlined.png");
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: 601px;
+  top: -109px;
+}
+
+.delivery {
+  background-image: url("../../../public/images/advant_delivery-outlined.png");
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: 336px;
+  top: 253px;
+}
+
+.support {
+  background-image: url("../../../public/images/advant_customer-service-outlined.png");
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: 1002px;
+  top: 268px;
 }
